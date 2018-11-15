@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="model"
+            type="xyz.manzodev.demohohang.Model.Model"></variable>
+    </data>
+    <RelativeLayout
+        android:id="@+id/horizontal_container"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:padding="8dp"
+            android:background="@drawable/border_tv"
+            android:text="@{model.name}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</layout>
